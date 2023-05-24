@@ -1,0 +1,37 @@
+/*
+SPEC SOURCES PROJECT HEXADECIMAL CODES
+Columbia Blue: 
+#b0d7fb
+
+Dark Blue:
+#36466c
+
+White: 
+#f1f1f1
+
+Green Add:
+#56c853
+
+Candy Red Delete: 
+#fe7676
+
+Spectator Logo Image link:
+
+https://clubs-cu.s3.amazonaws.com/Spectator+Publishing+Logo.png
+
+*/
+
+.heading{
+    text-align: center;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-text{
+    margin-left: auto;
+    margin-right: auto;
+}
