@@ -21,17 +21,65 @@ https://clubs-cu.s3.amazonaws.com/Spectator+Publishing+Logo.png
 
 */
 
+body{
+    background-color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    margin: auto;
+}
+
 .heading{
     text-align: center;
-    background-color: aqua;
+    color: #36466c;
     padding: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav{
     display: flex;
+    background-color: #b0d7fb;
+    border-radius: 25px;
+    padding: 15px 32px;
+}
+.entry{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 15px 32px;
+    
 }
 
 .nav-text{
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.entry-text{
+    display: flex;
+    background-color: #ffffff;
+    color: #36466c;
+}
+
+.button{
+    border:none;
+
+}
+
+.deleteButton{
+    border: none;
+    display: flex;
+    background-color: #fe7676;
+    border-radius: 15px;
+    padding: 15px 32px;
+}
+
+.addButton{
+    border: none;
+    display: flex;
+    background-color: #56c853;
+    border-radius: 15px;
+    padding: 15px 32px;
+
 }
