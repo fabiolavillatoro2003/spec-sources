@@ -27,7 +27,9 @@ body{
 }
 div{
     margin: auto;
+    width: 90%;
 }
+
 
 .heading{
     text-align: center;
@@ -49,22 +51,39 @@ div{
     padding: 15px 32px;
     
 }
-
 .nav-text{
     margin-left: auto;
     margin-right: auto;
+    color: #ffffff;
+}
 
+.button-text{
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
 }
 
 .entry-text{
     display: flex;
     background-color: #ffffff;
     color: #36466c;
+    font-size: larger;
+}
+.entry-email{
+    display: flex;
+    background-color: #ffffff;
+    color: #36466c;
 }
 
-.button{
-    border:none;
+.button-text{
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+}
 
+button{
+    border: none;
+    
 }
 
 .deleteButton{
@@ -72,7 +91,7 @@ div{
     display: flex;
     background-color: #fe7676;
     border-radius: 15px;
-    padding: 15px 32px;
+    padding: 1px 32px;
 }
 
 .addButton{
@@ -80,6 +99,6 @@ div{
     display: flex;
     background-color: #56c853;
     border-radius: 15px;
-    padding: 15px 32px;
+    padding: 1px 32px;
 
 }
