@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+  background-color: #f1f1f1;
+  font-family: 'Poppins', sans-serif;
+}
+div{
+  margin: auto;
+  width: 90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  border:none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 32px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+  text-align: center;
+  color: #36466c;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav{
+  display: flex;
+  background-color: #b0d7fb;
+  border-radius: 25px;
+  padding: 15px 32px;
+}
+
+.input-display{
+  display: flex;
+  padding: 1px 32px;
+}
+
+.entry{
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 15px 32px;
+  
+}
+.nav-text{
+  color: #ffffff;
+}
+
+.button-text{
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+
+.entry-text{
+  display: flex;
+  background-color: #ffffff;
+  color: #36466c;
+  font-size: larger;
+}
+.entry-email{
+  display: flex;
+  background-color: #ffffff;
+  color: #36466c;
+  font-weight: 20;
+}
+
+.button-text{
+  color: #ffffff;
+  font-size: large;
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  border: none;
+  
+}
+
+.deleteButton{
+  border: none;
+  display: flex;
+  background-color: #fe7676;
+  border-radius: 15px;
+  padding: 1px 32px;
+}
+
+.addButton{
+  border: none;
+  display: flex;
+  background-color: #56c853;
+  border-radius: 15px;
+  padding: 1px 32px;
+
 }
