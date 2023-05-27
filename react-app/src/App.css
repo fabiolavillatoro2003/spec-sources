@@ -10,6 +10,7 @@ input{
   margin:auto;
   border:none;
   padding: 8px 25px;
+  margin-left:10px;
 }
 
 .logo{
@@ -45,11 +46,6 @@ input{
   color: #ffffff;
 }
 
-.input-display{
-  display: flex;
-  padding: 1px 32px;
-}
-
 .entry{
   background-color: #ffffff;
   display: flex;
@@ -69,6 +65,11 @@ input{
   display: flex;
   flex-direction: row;
   align-items: start;
+}
+.item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .entry-text{
@@ -104,6 +105,7 @@ button{
   align-items: center;
   justify-content: center;
   display: flex;
+  margin-left:20px;
 }
 
 .deleteButton{
