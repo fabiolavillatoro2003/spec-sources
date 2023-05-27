@@ -12,6 +12,13 @@ input{
   padding: 8px 25px;
 }
 
+.logo{
+  height: 15%;
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
 .heading{
   text-align: center;
   color: #36466c;
@@ -22,14 +29,15 @@ input{
 .nav{
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #b0d7fb;
   border-radius: 20px;
   padding: 1.5rem 4rem;
-  margin-left:10%;
-  margin-right:10%; 
-  margin-bottom: 1rem;
+  margin-left:5%;
+  margin-right:5%; 
+  margin-bottom: 2.5rem;
   box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.20);
-  min-width: 750px;
+  min-width: 700px;
 
 }
 
@@ -43,50 +51,66 @@ input{
 }
 
 .entry{
-  display: flex;
-  margin-left:10%;
-  margin-right:10%;
   background-color: #ffffff;
-  border-radius: 15px;
-  padding: 15px 32px;
-  min-width: 750px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 4rem;
+  margin-left:5%;
+  margin-right:5%; 
+  margin-bottom: 1rem;
+  min-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.20);
+
+}
+
+.nameEmail{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
 }
 
 .entry-text{
   color: #36466c;
   font-size: x-large;
   font-weight: 600;
-  
+
 }
 .entry-email{
-  display: flex;
-  text-align: right;
-  background-color: #ffffff;
   color: #36466c;
   font-weight: 20;
+}
+
+.entry-text, .entry-email, .button{
+  display: flex;
+  align-items: baseline;
+  margin-right: 10px;
+  min-width: 200px;
 }
 
 .button-text{
   color: #ffffff;
   font-size: large;
   font-family: 'Poppins', sans-serif;
+  font-weight: 1000;
 }
 
 button{
   border: none;
-  padding: 0px 15px;
-  margin: auto;
+  height: 40px;
+  width:100px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-
-
 
 .deleteButton{
   background-color: #fe7676;
-  border-radius: 15px;
+
 }
 
 .addButton{
   background-color: #56c853;
-  border-radius: 15px;
 }
