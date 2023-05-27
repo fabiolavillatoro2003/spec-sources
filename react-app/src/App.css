@@ -11,8 +11,8 @@ div{
 }
 
 input{
+  margin: auto;
   border:none;
-  display: flex;
   padding: 10px 32px;
 }
 
@@ -30,6 +30,11 @@ input{
   padding: 15px 32px;
 }
 
+.nav-text{
+  color: #ffffff;
+  margin-right: auto;
+}
+
 .input-display{
   display: flex;
   padding: 1px 32px;
@@ -41,9 +46,6 @@ input{
   border-radius: 15px;
   padding: 15px 32px;
   
-}
-.nav-text{
-  color: #ffffff;
 }
 
 .button-text{
@@ -73,22 +75,17 @@ input{
 
 button{
   border: none;
-  
+  padding: 0px 15px;
+  float:left;
 }
 
 .deleteButton{
-  border: none;
   display: flex;
   background-color: #fe7676;
   border-radius: 15px;
-  padding: 1px 32px;
 }
 
 .addButton{
-  border: none;
-  display: flex;
   background-color: #56c853;
   border-radius: 15px;
-  padding: 1px 32px;
-
 }
