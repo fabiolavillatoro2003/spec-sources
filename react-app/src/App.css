@@ -32,7 +32,6 @@ input{
 
 .nav-text{
   color: #ffffff;
-  margin-right: auto;
 }
 
 .input-display{
@@ -76,11 +75,10 @@ input{
 button{
   border: none;
   padding: 0px 15px;
-  float:left;
+  margin: auto;
 }
 
 .deleteButton{
-  display: flex;
   background-color: #fe7676;
   border-radius: 15px;
 }
