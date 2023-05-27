@@ -21,15 +21,16 @@ function App() {
     setSourceList(updatedList);
   }
   
-  function handleAdd(){
-
+  function handleAdd(sourceName, sourceEmail){
+    const updatedList = [...sourceList, {sourceName: sourceName, sourceEmail: sourceEmail}]
+    setSourceList(updatedList);
   }
 
   return (
     <div class="App">
       <div><img src="https://clubs-cu.s3.amazonaws.com/Spectator+Publishing+Logo.png " class="logo"></img></div>
     <h1 class="heading">Spectator's Sources</h1>
-    <Form></Form>
+    <Form handleAdd={handleAdd}></Form>
 
     <List sourceList ={sourceList} handleDelete = {handleDelete}></List>
 

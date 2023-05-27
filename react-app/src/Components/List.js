@@ -16,7 +16,7 @@ function ListItem({sourceId, sourceName, sourceEmail, handleDelete}){
         <div class="item"><p class="entry-text">{sourceId+1}</p></div>
         <div class="item"><p class="entry-text">{sourceName}</p></div>
         <div><p class="entry-email">{sourceEmail}</p></div>
-        <button class="deleteButton" onClick={() => handleDelete(sourceId)}><p class="button-text">DELETE</p></button>
+        <button class="deleteButton" type="button" onClick={() => handleDelete(sourceId)}><p class="button-text">DELETE</p></button>
         </div>
     );
 }

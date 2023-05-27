@@ -1,18 +1,20 @@
-function Form(){
+import React, {useState} from 'react';
+
+function Form({handleAdd}){
+    const [sourceName, setSourceName] = useState();
+    const [sourceEmail, setSourceEmail] = useState();
+
     return(
-        <div>
+
     <div class="nav">
         <label for="name" id="nav-text">Source Name:</label>
-        <input type="text" id="name" required></input>
+        <input type="text" id="name" onChange={(e) => setSourceName(e.target.value)}></input>
         <label for="email" id="nav-text">Source Email:</label>
-        <input type="text" id="email" name="email" required></input>
-        <button class="addButton"><p class="button-text">ADD</p></button>
+        <input type="text" id="email" name="email" onChange={(e) => setSourceEmail(e.target.value)}></input>
+        <button class="addButton" onClick={() => handleAdd(sourceName, sourceEmail)}><p class="button-text">ADD</p></button>
     
     </div>
-    <div class="test">
-        
-    </div>
-    </div>
+    
     );
 }
 export default Form;
