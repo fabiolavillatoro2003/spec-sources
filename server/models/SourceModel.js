@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 //WRITE THE SCHEMA HERE
 
 const sourceSchema = new Schema({
-    sourceId: {type: String, required: true},
+    sourceId: {type: Number, required: true},
     sourceName: {type: String, required: true},
     sourceEmail: {type: String, required: true},
 })
